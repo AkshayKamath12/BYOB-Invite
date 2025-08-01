@@ -9,7 +9,7 @@
     const inviteToken = params.get('invite_token');
     
     // Create deep link
-    const deepLink = `byobsports://match/${matchId}?invite_token=${inviteToken}`;
+    const deepLink = `byobsports://matches/${matchId}?invite_token=${inviteToken}`;
     
     // Try to open the app
     window.location.href = deepLink;
